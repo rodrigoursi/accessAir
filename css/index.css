@@ -1,0 +1,68 @@
+body {
+  background-image: url("./../assets/background/principal.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.principal .carousel img {
+  height: 400px;
+  object-fit: cover;
+}
+
+.logoCabecera {
+  width: 5%;
+}
+
+.servicios h1 {
+  background-color: #005eff;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  background-color: #00abff;
+  color: white;
+  width: 30rem;
+  padding: 3px;
+  box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.4); /* Ajusta los valores según tus preferencias */
+}
+
+.pie {
+  background-color: #2d2d2d;
+  color: white;
+}
+
+.pie-texto {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pie-redes {
+  width: 100%;
+  padding: 7px;
+  display: flex;
+  justify-content: center;
+}
+
+.pie-redes a {
+  width: 3%;
+  margin: auto 1%;
+}
+
+
+/* mediaquery 425   */
+
+@media (max-width: 580px) {
+  .logoCabecera {
+    width: 10%;
+  }
+
+  /*.cards .card .row>* {
+    width: 50%;
+  }*/
+}
