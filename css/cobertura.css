@@ -1,0 +1,36 @@
+body {
+  background-color: #001F3F; /* Puedes ajustar el color oscuro aquí sugerencia: #111 */
+}
+
+.banner img {
+  height: 450px;
+}
+
+.cobertura h1 {
+  background-color: orange;
+  text-align: center;
+  color: #001F3F;
+}
+
+.contenedor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contenedor > div {
+  background-color: white;
+  border: 2px solid red;
+  border-radius: 6px;
+  text-align: center;
+  width: 60%;
+  color: #001F3F;
+}
+
+/* mediaquery 425   */
+
+@media (max-width: 580px) {
+  .contenedor > div {
+    width: 100%;
+  }
+}

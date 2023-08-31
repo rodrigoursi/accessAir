@@ -1,21 +1,16 @@
 body {
-  background-image: url("./../assets/background/principal.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: #001F3F; /* Puedes ajustar el color oscuro aquí sugerencia: #111 */
 }
 
 .principal .carousel img {
-  height: 400px;
+  height: 450px;
   object-fit: cover;
 }
 
-.logoCabecera {
-  width: 5%;
-}
-
 .servicios h1 {
-  background-color: #005eff;
+  background-color: orange;
   text-align: center;
+  color: #001F3F;
 }
 
 .cards {
@@ -32,37 +27,10 @@ body {
   box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.4); /* Ajusta los valores según tus preferencias */
 }
 
-.pie {
-  background-color: #2d2d2d;
-  color: white;
-}
-
-.pie-texto {
-  display: flex;
-  justify-content: space-between;
-}
-
-.pie-redes {
-  width: 100%;
-  padding: 7px;
-  display: flex;
-  justify-content: center;
-}
-
-.pie-redes a {
-  width: 3%;
-  margin: auto 1%;
-}
-
-
 /* mediaquery 425   */
 
 @media (max-width: 580px) {
-  .logoCabecera {
-    width: 10%;
+  .principal .carousel img {
+    height: 200px;
   }
-
-  /*.cards .card .row>* {
-    width: 50%;
-  }*/
 }

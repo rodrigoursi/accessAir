@@ -5,7 +5,13 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="framework/bootstrap53/css/bootstrap.min.css">
+  <!-- palabras clave para motor de busqueda -->
+  <meta name="keywords" content="access air, accessAir, internet, servicio de internet, wifi, internet inalambrica, fibra optica">
+  <!-- describe lo que contiene tu pagina, es lo que figura en la descripion de
+  google -->
+  <meta name="description" content="servicio de internet banda ancha a traves de fibra optica o de forma inalambrica.">
+  <link rel="stylesheet" href="/accessAir/framework/bootstrap53/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/globales.css">
   <link rel="stylesheet" href="./css/index.css">
   <title>Inicio</title>
 </head>
@@ -20,17 +26,20 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-            <a class="nav-link active" href="#">Nosotros</a>
-            <a class="nav-link active" href="#">Planes</a>
-            <a class="nav-link active" href="#">Cobertura</a>
-            <a class="nav-link active" href="#">Contacto</a>
+            <a class="nav-link active" aria-current="page" href="./">Home</a>
+            <a class="nav-link active" href="./pages/nosotros.html">Nosotros</a>
+            <a class="nav-link active" href="./pages/planes.html">Planes</a>
+            <a class="nav-link active" href="./pages/cobertura.html">Cobertura</a>
+            <a class="nav-link active" href="./pages/galeria.html">Galeria</a>
+            <a class="nav-link active" href="./pages/contacto.html">Contacto</a>
+            <a class="nav-link active btn btn-area mx-md-1" href="http://www.pagos.accessair.com.ar" target="_blank">Area cliente</a>
+            <a class="nav-link active btn btn-pagos mx-md-1" href="https://www.bancoroela.com.ar:8081" target="_blank">Pagar</a>
           </div>
         </div>
       </div>
     </nav>
   </header>
-  <main class="principal" border:1px solid black;">
+  <main class="principal">
     <section>
       <div id="carouselPrincipal" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner"></div>
@@ -72,7 +81,7 @@
             <div class="col-md-8 col-8">
               <div class="card-body">
                 <h6 class="card-title">SERVICIO DE CONECTIVIDAD</h6>
-                <p class="card-text">Fibra optica o wireless.</p>
+                <p class="card-text">Fibra optica, wireless, instalaciones de torres y mástiles para enlaces y monitoreos.</p>
               </div>
             </div>
           </div>
@@ -81,12 +90,12 @@
         <div class="card mb-3 mx-3" style="max-width: 540px;">
           <div class="row g-0">
             <div class="col-md-2 col-3">
-              <img src="./assets/icons/candado.png" class="img-fluid rounded-start" alt="...">
+              <img src="./assets/icons/torre.png" class="img-fluid rounded-start" alt="...">
             </div>
             <div class="col-md-8 col-8">
               <div class="card-body">
-                <h6 class="card-title">NO MÁS PROBLEMAS DE CONEXIÓN</h6>
-                <p class="card-text">Sin cables, no se corta por lluvia. Seguro y la mejor velocidad a cualquier hora del día.</p>
+                <h6 class="card-title">TRABAJOS ESPECIALIZADOS</h6>
+                <p class="card-text">Servicio de montaje, mantenimiento y desmontaje de mástiles arriostrados; Torres telescópicas; Balizamento nocturno.</p>
               </div>
             </div>
           </div>
@@ -99,7 +108,7 @@
             </div>
             <div class="col-md-8 col-8">
               <div class="card-body">
-                <h6 class="card-title">PLANES APRA CADA NECESIDAD</h6>
+                <h6 class="card-title">PLANES PARA CADA NECESIDAD</h6>
                 <p class="card-text">Atendemos empresas, instituciones educativas, profesionales, usuarios hogareños.</p>
               </div>
             </div>
@@ -109,15 +118,15 @@
       </div>
     </aside>
   </main>
-  <footer class="pie"">
+  <footer class="pie">
     <div class="pie-texto">
-      <span class="ms-4">©TODOS LOS DERECHOS RESERVADOS</span>
-      <span class="me-4">Sitio web desarrollado por <a href="http://www.rodriprograma.com.ar/mawix">www.rodriprograma.com.ar/mawix</a></span>
+      <span class="ms-sm-4">©TODOS LOS DERECHOS RESERVADOS</span>
+      <span class="me-sm-4">Sitio web desarrollado por <a href="http://www.rodriprograma.com.ar/mawix">www.rodriprograma.com.ar/mawix</a></span>
     </div>
     <div class="pie-redes">
       <a href="https://www.facebook.com/desarrolloWebMawix"><img src="./assets/icons/facebook.png" class="w-100" alt="facebook"></a>
-      <a href="#"><img src="./assets/icons/instagram.png" class="w-100 alt="instagram"></a>
-      <a href="https://api.whatsapp.com/send?phone=543484355743"><img src="./assets/icons/whatsapp.png" class="w-100 alt="whatsapp"></a>
+      <a href="#"><img src="./assets/icons/instagram.png" class="w-100" alt="instagram"></a>
+      <a href="https://api.whatsapp.com/send?phone=543484355743"><img src="./assets/icons/whatsapp.png" class="w-100" alt="whatsapp"></a>
     </div>
   </footer>
   <script src="framework/bootstrap53/js/bootstrap.bundle.min.js" charset="utf-8"></script>

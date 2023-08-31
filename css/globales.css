@@ -1,0 +1,78 @@
+.logoCabecera {
+  width: 5%;
+}
+
+.btn-pagos {
+  background-color: orange !important;
+  min-width: 90px !important;
+  transition: background-color 0.3s ease;
+}
+
+.btn-area {
+  background-color: red !important;
+  min-width: 90px !important;
+  transition: background-color 0.3s ease;
+}
+
+.btn-pagos:hover, .btn-area:hover {
+  background-color: #001F3F !important;
+}
+
+.pie {
+  background-color: #2d2d2d;
+  color: white;
+}
+
+.pie-texto {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pie-redes {
+  width: 100%;
+  padding: 7px;
+  display: flex;
+  justify-content: center;
+}
+
+.pie-redes a {
+  width: 3%;
+  margin: auto 1%;
+}
+
+.proceso-exitoso {
+  text-align: center;
+}
+
+.proceso-exitoso img {
+  width: 50%;
+  margin: 10% auto;
+}
+
+/* mediaquery 768   */
+@media (max-width: 768px) {
+  .btn-pagos, .btn-area {
+    margin: 1% 0;
+  }
+}
+/* mediaquery 425   */
+
+@media (max-width: 580px) {
+  .logoCabecera {
+    width: 10%;
+  }
+
+  .pie-texto {
+    display: block;
+    text-align: center;
+  }
+
+  .pie-texto span {
+    display: block;
+    margin: 0;
+  }
+
+  .pie-redes a {
+    width: 7%;
+  }
+}

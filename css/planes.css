@@ -1,0 +1,28 @@
+body {
+  background-color: #001F3F; /* Puedes ajustar el color oscuro aquí sugerencia: #111 */
+}
+
+.contenedor {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.contenedor .card {
+  text-align: center;
+  border: 2px solid red;
+}
+
+.banner img {
+  height: 450px;
+}
+
+.planes h1 {
+  background-color: orange;
+  text-align: center;
+  color: #001F3F;
+}
+
+.card ul li {
+  font-size: 0.7em;
+}

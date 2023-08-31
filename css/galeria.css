@@ -1,0 +1,27 @@
+body {
+  background-color: #001F3F; /* Puedes ajustar el color oscuro aquí sugerencia: #111 */
+}
+
+.galeria h1 {
+  background-color: orange;
+  text-align: center;
+  color: #001F3F;
+}
+
+.contenedor {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1%;
+}
+
+.contenedor-fotos {
+  border: 2px solid red;
+  width: 300px;
+}
+
+.contenedor-fotos img {
+  width: 100%;
+  height: 290px;
+  padding: 1%;
+}

@@ -1,0 +1,18 @@
+body {
+  background-color: #001F3F; /* Puedes ajustar el color oscuro aquí sugerencia: #111 */
+}
+
+.contacto h1 {
+  background-color: orange;
+  text-align: center;
+  color: #001F3F;
+}
+
+.contenedor {
+  display: flex;
+  justify-content: center;
+}
+
+.contenedor form {
+  color: white;
+}

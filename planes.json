@@ -1,0 +1,152 @@
+[
+  {
+    "imagen": "/accessAir/assets/logos/plan1.jpeg",
+    "titulo": "8 MEGAS",
+    "servicio": "8600kbps / 2500kbps",
+    "texto-lista": [
+      "Navega sin problemas.",
+      "Accede a tus redes sociales sin problemas.",
+      "Recomendado para 1 dispositivos simultaneos maximo.",
+      "Mira videos en calidad HD."
+    ],
+    "precio": "$4500"
+  },
+  {
+    "imagen": "/accessAir/assets/logos/plan1.jpeg",
+    "titulo": "10 MEGAS",
+    "servicio": "10850kbps / 3100kbps",
+    "texto-lista": [
+      "Navega sin problemas.",
+      "Accede a tus redes sociales sin problemas.",
+      "Recomendado para 2 dispositivos simultaneos maximo.",
+      "Mira videos en calidad HD."
+    ],
+    "precio": "$5500"
+  },
+  {
+    "imagen": "/accessAir/assets/logos/plan1.jpeg",
+    "titulo": "12 MEGAS",
+    "servicio": "12850kbps / 3800kbps",
+    "texto-lista": [
+      "Navega sin problemas.",
+      "Accede a tus redes sociales sin problemas.",
+      "Recomendado para 2 dispositivos simultaneos maximo.",
+      "Mira videos en calidad FULLHD."
+    ],
+    "precio": "$6500"
+  },
+  {
+    "imagen": "/accessAir/assets/logos/plan1.jpeg",
+    "titulo": "15 MEGAS",
+    "servicio": "15400kbps / 5150kbps",
+    "texto-lista": [
+      "Navega sin problemas.",
+      "Accede a tus redes sociales sin problemas.",
+      "Recomendado para 3 dispositivos simultaneos maximo.",
+      "Mira videos en calidad HD."
+    ],
+    "precio": "$7500"
+  },
+  {
+    "imagen": "/accessAir/assets/logos/plan1.jpeg",
+    "titulo": "20 MEGAS",
+    "servicio": "20500kbps / 5150kbps",
+    "texto-lista": [
+      "Navega sin problemas.",
+      "Accede a tus redes sociales sin problemas.",
+      "Recomendado para 3 dispositivos simultaneos maximo.",
+      "Mira videos en calidad FULLHD."
+    ],
+    "precio": "$9000"
+  },
+  {
+    "imagen": "/accessAir/assets/logos/plan1.jpeg",
+    "titulo": "30 MEGAS",
+    "servicio": "30800kbps / 7200kbps",
+    "texto-lista": [
+      "Navega sin problemas.",
+      "Accede a tus redes sociales sin problemas.",
+      "Recomendado para 4 dispositivos simultaneos maximo.",
+      "Mira videos en calidad HD."
+    ],
+    "precio": "$20000"
+  },
+  {
+    "imagen": "/accessAir/assets/logos/plan1.jpeg",
+    "titulo": "40 MEGAS",
+    "servicio": "41000kbps / 8200kbps",
+    "texto-lista": [
+      "Navega sin problemas.",
+      "Accede a tus redes sociales sin problemas.",
+      "Recomendado para 4 dispositivos simultaneos maximo.",
+      "Mira videos en calidad FULLHD.",
+      "Apto para juegos en internet a traves de consolas."
+    ],
+    "precio": "$28000"
+  },
+  {
+    "imagen": "/accessAir/assets/logos/plan1.jpeg",
+    "titulo": "50 MEGAS",
+    "servicio": "51210kbps / 10250kbps",
+    "texto-lista": [
+      "Navega sin problemas.",
+      "Accede a tus redes sociales sin problemas.",
+      "Recomendado para 4 dispositivos simultaneos maximo.",
+      "Mira videos en calidad 4K.",
+      "Apto para juegos en internet a traves de consolas."
+    ],
+    "precio": "$38000"
+  },
+  {
+    "imagen": "/accessAir/assets/logos/plan1.jpeg",
+    "titulo": "15 MEGAS SIMETRICOS",
+    "servicio": "15400kbps / 15400kbps",
+    "texto-lista": [
+      "Navega sin problemas.",
+      "Accede a tus redes sociales sin problemas.",
+      "Recomendado para 3 dispositivos simultaneos maximo.",
+      "Mira videos en calidad HD.",
+      "Apto para videovigilancia y servidores."
+    ],
+    "precio": "$13000"
+  },
+  {
+    "imagen": "/accessAir/assets/logos/plan1.jpeg",
+    "titulo": "20 MEGAS SIMETRICOS",
+    "servicio": "20500kbps / 20500kbps",
+    "texto-lista": [
+      "Navega sin problemas.",
+      "Accede a tus redes sociales sin problemas.",
+      "Recomendado para 3 dispositivos simultaneos maximo.",
+      "Apto para videovigilancia y servidores.",
+      "Mira videos en calidad FULLHD."
+    ],
+    "precio": "$17500"
+  },
+  {
+    "imagen": "/accessAir/assets/logos/plan1.jpeg",
+    "titulo": "30 MEGAS SIMETRICOS",
+    "servicio": "30800kbps / 30800kbps",
+    "texto-lista": [
+      "Navega sin problemas.",
+      "Accede a tus redes sociales sin problemas.",
+      "Recomendado para 4 dispositivos simultaneos maximo.",
+      "Apto para videovigilancia, servidores y streaming.",
+      "Mira videos en calidad HD."
+    ],
+    "precio": "$26000"
+  },
+  {
+    "imagen": "/accessAir/assets/logos/plan1.jpeg",
+    "titulo": "TRABAJOS ESPECIALIZADOS",
+    "servicio": "Servicio de:",
+    "texto-lista": [
+      "Montaje y desmontaje de mástiles arriostrados.",
+      "Mantenimiento de mástiles arriostrados.",
+      "Torres telescópicas.",
+      "Balizamento nocturno.",
+      "Mediciones de resistividad de suelo."
+    ],
+    "precio": "Consultar"
+  }
+]
