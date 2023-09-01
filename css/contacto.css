@@ -16,3 +16,7 @@ body {
 .contenedor form {
   color: white;
 }
+
+.contenedor form .form-text {
+  color: red;
+}
